@@ -3,8 +3,6 @@ import {StyleSheet} from "react-native";
 const styles = StyleSheet.create({
     carContainer: {
         width: "100%",
-        height: "100%",
-        zIndex: 4,
     },
     titles: {
         marginTop: "30%",
@@ -24,7 +22,6 @@ const styles = StyleSheet.create({
         resizeMode: "cover",
         position: "absolute",
         flex: 1,
-        zIndex: -1,
     },
     buttonContainer: {
       position: "absolute",
