@@ -29,6 +29,10 @@ const styles = StyleSheet.create({
         bottom: 50,
         width: "100%",
     },
+    subtitleCTA: {
+      color: "#403e3e",
+      textDecorationLine: "underline",
+    },
 });
 
 export default styles;

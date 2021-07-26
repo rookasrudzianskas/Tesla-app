@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, ImageBackground } from 'react-native';
+import {StyleSheet, Text, View, ImageBackground, FlatList} from 'react-native';
 import modelX from "./assets/images/ModelX.jpeg";
 import modelY from "./assets/images/ModelS.jpeg";
 import modelS from "./assets/images/ModelY.jpeg";
@@ -11,7 +11,11 @@ import StyledButton from "./components/StyledButton";
 export default function App() {
   return (
     <View style={styles.container}>
-      <CarItem name={"Model X"} tagline={"Starting from $95.000"} image={modelX}/>
+      <CarItem name={"Model X"} tagline={"Order Online For"} image={modelX} taglineCTA={"Touchless Delivery"} />
+      <FlatList />
+      {/*<CarItem name={"Model Y"} tagline={"Starting from $105.000"} image={modelY}/>*/}
+      {/*<CarItem name={"Model S"} tagline={"Starting from $115.000"} image={modelS}/>*/}
+      {/*<CarItem name={"Model 3"} tagline={"Starting from $125.000"} image={model3}/>*/}
     </View>
   );
 }
