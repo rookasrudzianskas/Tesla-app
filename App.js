@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
+    <View style={styles.container}>
       <View style={styles.carContainer}>
       <StatusBar style="auto" />
         <View style={styles.titles}>
@@ -12,17 +13,22 @@ export default function App() {
         </View>
 
       </View>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  carContainer: {
+  container: {
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
   },
+  carContainer: {
+    width: "100%",
+    height: "100%",
+  },
   titles: {
-
+    marginTop: "30%",
   },
   title: {
 
