@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 import modelX from "./assets/images/ModelX.jpeg";
 import CarItem from "./components/CarItem";
+import StyledButton from "./components/StyledButton";
 
 export default function App() {
   return (
