@@ -11,7 +11,6 @@ import StyledButton from "./components/StyledButton";
 export default function App() {
   return (
     <View style={styles.container}>
-      <CarItem name={"Model X"} tagline={"Order Online For"} image={modelX} taglineCTA={"Touchless Delivery"} />
       <FlatList />
       {/*<CarItem name={"Model Y"} tagline={"Starting from $105.000"} image={modelY}/>*/}
       {/*<CarItem name={"Model S"} tagline={"Starting from $115.000"} image={modelS}/>*/}
