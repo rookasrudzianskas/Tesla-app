@@ -6,8 +6,8 @@ import CarsList from "./components/CarsList";
 export default function App() {
   return (
     <View style={styles.container}>
-      <StatusBar />
-      <CarsList />
+        <CarsList />
+        <StatusBar style="auto" />
     </View>
   );
 }
