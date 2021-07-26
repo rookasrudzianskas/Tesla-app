@@ -4,9 +4,9 @@ import styles from "./style";
 
 const StyledButton = (props) => {
     return (
-        <View>
+        <View style={styles.container}>
             <Pressable style={styles.button} onPress={() => {console.log("Pressed")}}>
-                <Text>Custom Order</Text>
+                <Text style={styles.text}>Custom Order</Text>
             </Pressable>
         </View>
     );
