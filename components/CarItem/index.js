@@ -11,11 +11,11 @@ const CarItem = (props) => {
 
     return (
             <View style={styles.carContainer}>
-                <ImageBackground source={modelX} style={styles.image}>
+                <ImageBackground source={image} style={styles.image}>
                     <StatusBar style="auto" />
                     <View style={styles.titles}>
-                        <Text style={styles.title}>Model S</Text>
-                        <Text style={styles.subtitle}>Starting at $69.000</Text>
+                        <Text style={styles.title}>{name}</Text>
+                        <Text style={styles.subtitle}>{tagline}</Text>
                     </View>
                     <View style={styles.buttonContainer}>
                         <StyledButton type="primary" content={"Custom Order"} onPress={() => console.log("")} />
